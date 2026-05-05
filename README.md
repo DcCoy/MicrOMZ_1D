@@ -115,9 +115,7 @@ The generic transport operator includes vertical diffusion and any imposed verti
 
 $$
 \mathcal{T}([\mathrm{X}])
-= \frac{\partial}{\partial z}
-\left(K_z \frac{\partial [\mathrm{X}]}{\partial z}\right)
-- w \frac{\partial [\mathrm{X}]}{\partial z},
+= \frac{\partial}{\partial z} \left(K_z \frac{\partial [\mathrm{X}]}{\partial z}\right) - w \frac{\partial [\mathrm{X}]}{\partial z},
 $$
 
 with tracer- or particle-specific modifications where appropriate, such as sinking organic matter fluxes.
