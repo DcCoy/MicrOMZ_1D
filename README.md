@@ -106,10 +106,7 @@ This $R^*$ expression is used as a diagnostic of resource competition among func
 All dissolved tracers obey a 1D transport-reaction mass balance. For tracer $X$,
 
 $$
-\frac{\partial [\mathrm{X}]}{\partial t}
-= \mathcal{T}([\mathrm{X}])
-+ \sum_i e_{i,\mathrm{X}} \mu_i B_i
-- \sum_i \frac{1}{y_{i,\mathrm{X}}} \mu_i B_i,
+\frac{\partial [\mathrm{X}]}{\partial t} = \mathcal{T}([\mathrm{X}]) + \sum_i e_{i,\mathrm{X}} \mu_i B_i - \sum_i \frac{1}{y_{i,\mathrm{X}}} \mu_i B_i,
 $$
 
 where $\mathcal{T}([\mathrm{X}])$ represents 1D physical transport, $e_{i,\mathrm{X}}$ is the production coefficient for tracer $X$ by functional type $i$, and $1/y_{i,\mathrm{X}}$ represents the resource consumed per biomass produced when tracer $X$ limits growth.
